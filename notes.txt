@@ -1,0 +1,22 @@
+installation
+
+Runtime dependencies:
+npm install express mongoose dotenv
+
+Dev dependencies (TypeScript tools):
+npm install -D typescript ts-node-dev @types/node @types/express
+
+3. TypeScript init karo
+npx tsc --init
+
+4. tsconfig.json me thori settings change karo
+
+{
+  "target": "ES6",
+  "module": "commonjs",
+  "rootDir": "./src",
+  "outDir": "./dist",
+  "strict": true,
+  "esModuleInterop": true,
+  "verbatimModuleSyntax": false
+}

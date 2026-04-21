@@ -1,8 +1,14 @@
 
 // const express = require("express");
-import express, { Request, Response } from "express";
-
+import express, { Request, Response } from "express"; 
+import { connectDB } from "./config/db";
 const app = express();
+
+const startServer = async () => {
+   await connectDB();
+}
+
+startServer();
 
 app.use(express.json());
 

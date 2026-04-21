@@ -20,3 +20,5 @@ npx tsc --init
   "esModuleInterop": true,
   "verbatimModuleSyntax": false
 }
+
+npx ts-node-dev src/index.ts

@@ -21,4 +21,12 @@ npx tsc --init
   "verbatimModuleSyntax": false
 }
 
+🧠 Samajhne wali important baat
+
+👉 Model → DB structure define karta hai
+👉 Controller → logic handle karta hai
+👉 Routes → kis URL pe konsa function chalega
+👉 App → middleware + routes mount
+👉 Server → DB connect + server start
+
 npx ts-node-dev src/index.ts

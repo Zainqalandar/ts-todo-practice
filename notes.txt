@@ -30,3 +30,13 @@ npx tsc --init
 👉 Server → DB connect + server start
 
 npx ts-node-dev src/index.ts
+
+
+
+
+--------------------------------------------------
+
+For local 
+
+    // "test": "echo \"Error: no test specified\" && exit 1",
+    // "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
